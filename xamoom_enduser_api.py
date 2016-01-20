@@ -281,7 +281,7 @@ class XamoomEndUserApi(remote.Service):
 
         items = [s.to_enduser_message(language,system,include_content=include_content) for s in spots]
         
-        return EnduserSpotMapResponseMessage(items=items,style=db.get_style())
+        return EnduserSpotMapResponseMessage(items=items,style=db.get_style().to_enduser_message())
         
     ## Used to get content by location (geofencing)
     @endpoints.method(EndUserGeoScanRequestMessage, EnduserSpotMapResponseMessage,path='get_closest_spots', http_method='POST',name='enduser.get_closest_spots')

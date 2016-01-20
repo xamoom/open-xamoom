@@ -38,6 +38,7 @@ from config import data_dir
 from util import string_to_bool
 from static_types import ContentBlockTypes
 from math import radians, cos, sin, asin, sqrt
+from util import location_message_from_geopoint 
 
 class CSVDataProvider():
 

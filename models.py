@@ -34,6 +34,7 @@ import base64
 
 from util import string_to_bool
 from util import bool_to_string
+from util import location_message_from_geopoint 
 
 from config import file_dir
 
