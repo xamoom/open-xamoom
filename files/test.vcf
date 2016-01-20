@@ -1,0 +1,20 @@
+BEGIN:VCARD
+VERSION:4.0
+
+N:Schö;Lucia;;
+FN:Lucia Schö
+ORG:xamoom GmbH
+TEL;CELL;VOICE:0123 456789
+ADR;TYPE=work;LABEL=";Lakeside Park1\nKlagenfurt\nKärnten\n9020\nÖsterreich\
+:;;Lakeside Park1;Klagenfurt;;9020;Österreich
+ADR;TYPE=home;LABEL="xamoom Strasse 1\n;xamoom City\n;1234\nÖsterreich\n"
+:;;xamoom Strasse 1;xamoom City;1234;;Österreich
+ Lucia Schö=0D=0A=
+ xamoom Strasse 1=0D=0A=
+ 1234 xamoom City, Österreich
+X-WAB-GENDER:1
+URL;HOME:http://www.xamoom.com
+URL;WORK:http://www.xamoom.com
+BDAY:19891230
+REV:20160112T135410Z
+END:VCARD

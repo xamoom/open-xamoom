@@ -1,0 +1,30 @@
+application: xamoom-tricia
+module: default
+version: 19-open
+runtime: python27
+threadsafe: true
+api_version: 1
+
+handlers:
+# HTTPS only API Handler
+- url: /_ah/spi/.*
+  script: xamoom_api.APPLICATION
+  secure: always
+  
+# CSV Data directory  
+- url: /data
+  static_dir: data
+  
+# Files directory  
+- url: /files
+  static_dir: files
+
+libraries:
+- name: pycrypto
+  version: latest
+- name: endpoints
+  version: 1.0
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest

@@ -1,0 +1,20 @@
+1;de;0;true;Titel;der Text
+1;en;0;true;Title;the text
+1;de;1;true;ein wenig musik;der kuenstler;test.mp3
+1;en;1;true;some music;an artist;test.mp3
+1;de;2;true;ein Video;https://www.youtube.com/watch?v=WmUBhXEFUQk
+1;en;2;true;a Video;https://www.youtube.com/watch?v=WmUBhXEFUQk
+1;de;3;true;ein Bild;test.jpg;100;Alternativtext
+1;en;3;true;an Image;test.jpg;100;alternative text
+1;de;4;true;ein Link;Linkbeschreibung;2;http://xamoom.com
+1;en;4;true;a link;Link description;2;http://xamoom.com/en
+1;de;5;true;ein Ebook;der kuenstler;test.mobi
+1;en;5;true;an ebook;an artist;test.mobi
+1;de;6;true;ein anderer Inhalt;2
+1;en;6;true;a different content item;2
+1;de;7;true;Soundcloud;https://soundcloud.com/hajknzsdejan/motion-anom7ly
+1;en;7;true;Soundcloud;https://soundcloud.com/hajknzsdejan/motion-anom7ly
+1;de;8;true;VCF Download;eine VCard;0;test.vcf
+1;en;8;true;VCF Download;a VCard;0;test.vcf
+1;de;9;true;Karte;aMapTag
+1;en;9;true;Map;aMapTag
