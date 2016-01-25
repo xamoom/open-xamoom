@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  pingeb.org
+
+  Created by Raphael Seher on 13.07.15.
+  Copyright (c) 2015 xamoom GmbH. All rights reserved.
+*/
+
+"pingeb.org" = "pingeb.org";
+
+"pingeb.org Carinthia" = "pingeb.org Kärnten";
+
+"Last update: %@" = "Letztes Update: %@";
+
+/* REMenu FontSizes */
+
+"Normal Font Size" = "Normaler Text";
+"Big Font Size" = "Großer Text";
+"Really Big Font Size" = "Sehr großer Text";
+
+/* MainTabBar Controller */
+
+"Cancel" = "Abbrechen";
+
+/* Scanning */
+
+"Nothing found!" = "Nichts gefunden!";
+"Scan a pingeb.org sticker." = "Scanne einen pingeb.org-Sticker.";
+"OK" = "OK";
+
+/* MapkitView */
+
+"No Location" = "Kein Position gefunden";
+"Distance: %d meter" = "Entfernung: %d meter";
+"Searching ..." = "Auf der Suche ...";
+"Nothing found near you" = "Nichts in der Nähe";
+"Discovered pingeb.org" = "pingeb.org entdeckt";
+"%lu near spots found" = "%lu Spots in der Nähe";

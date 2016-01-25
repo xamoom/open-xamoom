@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">pingeb.org</string>
+
+    <string name="title_activity_qrcode_scanner">QRCodeScannerActivity</string>
+
+    <string name="pingeborg_carinthia_system_name">pingeb.org Kärnten</string>
+
+    <string name="menu_item_artists_name">Künstler</string>
+    <string name="menu_item_map_name">Map</string>
+    <string name="menu_item_about_name">Über pingeb.org</string>
+    <string name="menu_item_settings_name">Einstellungen</string>
+
+    <string name="activate_text">Aktivieren</string>
+    <string name="cancel_text">Abbrechen</string>
+    <string name="nfc_enable_text">Hey, du hast NFC, aber es nicht aktiviert. Aktiviere es und entdecke damit pingeb.org Sticker.</string>
+    <string name="scanned_false_qr_code">Du hast keinen xamoom QR-Code gescannt.</string>
+    <string name="old_pingeborg_sticker_redirect_failure">Fehler beim Scannen.</string>
+    <string name="scan_qr_text">Scanne Sticker!</string>
+    <string name="nfc_dialog_title">NFC Aktivieren?</string>
+    <string name="distanceLabel">Entfernung:</string>
+    <string name="meterLabel">Meter</string>
+    <string name="instruction_view_close_phrase">Berühren zum Schließen</string>
+    <string name="overlay_disocver_new_artists">Scanne jede Woche einen pingeb.org-Sticker, um den neuesten Künstler freizuschalten</string>
+    <string name="overlay_artist_number">3</string>
+    <string name="overlay_unlocked_artists">Künstler haben wir für dich schon freigeschalten</string>
+    <string name="map_instruction_text">Du bist in der Nähe eines pingeb.org-Stickers? Dann kannst du diesen auch hier entdecken!</string>
+    <string name="discovered_pingeborg_geofence_message">Neuen Künstler gefunden</string>
+    <string name="Open">öffnen</string>
+    <string name="Discover">entdecken</string>
+    <string name="beacon_notification_info">In der Nähe</string>
+    <string name="beacon_notification_text">Öffne die pingeb.org app</string>
+    <string name="beacon_notification_title">Entdecke lokale Künstler</string>
+    <string name="bluetooth_enable_text">Entdecke neue Künstler via IBeacons mit low energy Bluetooth.</string>
+    <string name="bluetooth_dialog_title">Aktiviere Bluetooth</string>
+
+</resources>

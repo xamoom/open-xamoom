@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B68B86FC1F426C9A73E48C104854B4C23F9B8838",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B68E2A4ABF771DA2B071916A442D4CF6926A0869" : 0,
+    "B68B86FC1F426C9A73E48C104854B4C23F9B8838" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D912352B-633C-4AAF-B693-FEC1BCE65B32",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B68E2A4ABF771DA2B071916A442D4CF6926A0869" : "..",
+    "B68B86FC1F426C9A73E48C104854B4C23F9B8838" : "xamoom-ios-sdk"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "xamoom-ios-sdk-test",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "example\/xamoom-ios-sdk-test\/xamoom-ios-sdk-test.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xamoom\/xamoom-ios-sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B68B86FC1F426C9A73E48C104854B4C23F9B8838"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xamoom\/open-xamoom",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B68E2A4ABF771DA2B071916A442D4CF6926A0869"
+    }
+  ]
+}

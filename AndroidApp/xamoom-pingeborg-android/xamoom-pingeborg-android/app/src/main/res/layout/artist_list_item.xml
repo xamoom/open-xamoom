@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/halfFrameLayoutPadding"
+    android:paddingRight="@dimen/halfFrameLayoutPadding"
+    android:paddingTop="@dimen/halfFrameLayoutPadding">
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="2sp"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardPreventCornerOverlap="false">
+
+        <ImageView
+            android:id="@+id/artistListItemImageView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/placeholder"/>
+
+        <ImageView
+            android:id="@+id/artistListItemOverlayImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#88FFFFFF"
+            android:scaleType="centerInside"/>
+
+        <TextView
+            android:id="@+id/artistListItemTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:gravity="center|start"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:paddingStart="@dimen/artist_list_text_padding"
+            android:paddingEnd="@dimen/artist_list_text_padding"
+            android:textSize="18sp"
+            android:textColor="@color/artist_list_text"
+            android:background="@color/artist_list_text_background"/>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
