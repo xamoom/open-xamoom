@@ -28,6 +28,6 @@ along with open xamoom.  If not, see <http://www.gnu.org/licenses/>.
 geofence_radius = 40
 
 #base_url = "http://localhost:8080/"
-base_url = "https://xamoom-tricia.appspot.com/"
+base_url = "https://<YOUR-APP-ID>.appspot.com/"
 data_dir = base_url + "data/"
 file_dir = base_url + "files/"

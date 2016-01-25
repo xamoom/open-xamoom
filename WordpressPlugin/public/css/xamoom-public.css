@@ -1,0 +1,94 @@
+/*
+xamoom Wordpress Plugin
+Copyright (C) 2015  xamoom GmbH
+
+This file is part of xamoom-wordpress.
+
+xamoom-wordpress is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+xamoom-wordpress is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with xamoom-wordpress.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/**
+ * All of the CSS for your public-facing functionality
+ * Author: xamoom GmbH
+ */
+
+/*
+ * Block wrapper
+ */
+.xamoom_block {
+    width:100%;
+    margin-bottom: 10px;
+}
+
+/*
+ * Text formats
+ */
+
+.xamoom_title { }
+
+.xamoom_caption { }
+
+.xamoom_smalltext {
+    margin-bottom: 0px;
+}
+
+.xamoom_link {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.xamoom_audio {
+    width:100%;
+}
+
+h3.xamoom_headline {
+    margin-bottom: 2px;
+}
+
+.xamoom_image {
+    width:100%;
+    height:auto;
+}
+
+/*
+ * Map
+ */
+.xamoom-map {
+    height:350px;
+}
+
+/*
+ * YOUTUBE VIDEO WRAPPER
+ */
+.xamoom-videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.xamoom-videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*
+ * EMPTY HTML CLEANER
+ */
+p:empty {
+  display: none;
+}
