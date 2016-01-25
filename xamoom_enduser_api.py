@@ -317,7 +317,13 @@ class XamoomEndUserApi(remote.Service):
         
         request.language = request.language.split('-')[0]
 
-        cursor = int(request.cursor) if hasattr(request, 'cursor') and request.cursor != None else 0
+        cursor = request.cursor if hasattr(request, 'cursor') and request.cursor != None else 0
+        
+        if cursor == 'null':
+            cursor = '0'
+            
+        cursor = int(cursor)
+        
         page_size = int(request.page_size) if hasattr(request, 'page_size') and request.page_size != None and request.page_size <= 100 else 10
         
         tags = request.tags if hasattr(request, 'tags') else None

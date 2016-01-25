@@ -285,7 +285,7 @@ class ContentBlock(object):
         elif self.content_block_type == ContentBlockTypes.LINK:
             message.title = self.title
             message.text = self.text
-            message.link_type = self.link_type
+            message.link_type = int(self.link_type)
 
             #add special link type prefixes
             if self.link_type == ContentLinkTypes.EMAIL and self.link_url.startswith('mailto:') == False:
@@ -313,7 +313,7 @@ class ContentBlock(object):
         elif self.content_block_type == ContentBlockTypes.DOWNLOAD:
             message.title = self.title
             message.text = self.text
-            message.download_type = self.download_type
+            message.download_type = int(self.download_type)
             message.file_id = file_dir + self.file_id
         elif self.content_block_type == ContentBlockTypes.SPOTMAP:
             message.title = self.title
@@ -321,7 +321,7 @@ class ContentBlock(object):
         else:
             logging.error('Invalid Content Block Type in Entity! ' + str(self.content_block_type))
 
-        message.content_block_type = self.content_block_type
+        message.content_block_type = int(self.content_block_type)
         message.public = bool_to_string(self.public)
 
         return message
@@ -464,7 +464,7 @@ class Content(object):
 
         #add category
         if hasattr(self, 'category') and self.category != None:
-            message.category = self.category
+            message.category = int(self.category)
 
         if full == True:
             message.content_blocks = [block.to_enduser_message() for block in localized_content.content_blocks]

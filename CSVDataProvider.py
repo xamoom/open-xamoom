@@ -154,7 +154,9 @@ class CSVDataProvider():
     def get_spot_map(self,map_tag):
         if self.spots == None: self.load_spots()
         
-        result = [s for s in self.spots.values() if map_tag in s.tags]
+        result = self.spots.values()
+        if map_tag != "showAllTheSpots":
+            result = [s for s in self.spots.values() if map_tag in s.tags]
                 
         return result
     

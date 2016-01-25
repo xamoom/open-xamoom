@@ -1,4 +1,4 @@
-1;Testpage 1;test_cover.jpg;test,page;0
-2;Media;media_cover.jpg;test,media,audio,video;1
-3;Ebooks;ebooks_cover.jpg;test,ebook,mobi,pdf;2
-4;Links;links_cover.jpg;test,links,web,tel,mail;3
+1;Testpage 1;01_cover.jpg;test,page,artists;0
+2;Media;02_cover.jpg;test,media,audio,video,artists;1
+3;Ebooks;03_cover.jpg;test,ebook,mobi,pdf;2
+4;Links;04_cover.jpg;test,links,web,tel,mail;3
